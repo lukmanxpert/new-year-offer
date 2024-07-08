@@ -34,7 +34,6 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0 auto;
-    text-align: center;
 }
 ::selection{
     background-color: brown;
@@ -47,7 +46,9 @@ body{
     margin: 0 auto;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
+.default-width{
+    width: 90%;
+}
 /* banner section start */
 .new-year-section{
     height: 450px;
@@ -80,6 +81,7 @@ body{
 .discount-content{
     max-width: 70%;
     padding: 30px;
+    text-align: center;
 }
 .discount-content h1{
     font-weight: bold;
@@ -102,3 +104,33 @@ body{
     margin: 10px 20px;
 }
 /* discount banner end */
+
+/* welcome section start */
+
+.welcome-section{
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 450px;
+    position: relative;
+}
+.welcome-content{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
+.welcome-content h2{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.welcome-content p{
+    padding: 20px 0;
+}
+.welcome-content h5{
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+/* welcome section end */
+
