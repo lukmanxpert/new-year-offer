@@ -154,6 +154,7 @@ body {
 .welcome-content h5 {
     padding: 20px 0;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* welcome section end */
@@ -195,3 +196,57 @@ body {
 }
 
 /* join section end */
+
+/* new offer section start */
+
+.new-offer-container{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 50px;
+}
+.new-offer-container > div {
+    width: 33%;
+}
+.new-offer-container-img{
+    text-align: center;
+}
+.new-offer-container-img img{
+    height: 200px;
+    padding: 10px;
+    border: 7px solid red;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.new-offer-container-first-div h5{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+.new-offer-container-first-div h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 5px 0;
+}
+.new-offer-container-first-div p{
+    padding: 5px 0;
+    color: #070211;
+}
+.new-offer-container-second-div h3{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.new-offer-container-second-div p{
+    padding: 5px 0;
+    color: #070211;
+}
+.new-offer-container-second-div img{
+    padding: 10px 0;
+    height: 100px;
+}
+
+/* new offer section end */
