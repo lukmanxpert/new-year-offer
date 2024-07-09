@@ -329,3 +329,45 @@ body {
     padding: 20px 10px 10px 0;
 }
 /* the best gifts ends */
+/* subscribe section start */
+.subscribe-section{
+    width: 90%;
+    background-color: rgba(255, 0, 0, 0.05);
+    position: relative;
+    height: 400px;
+    border-radius: 5px;
+}
+.subscribe-section .subs-sec-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.subs-sec-text h2{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.subs-sec-text p{
+    color: #070211;
+}
+.subscribe{
+    padding: 10px;
+}
+.subscribe input{
+    padding: 20px;
+    font-size: rem;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+}
+.subscribe button{
+    padding: 20px;
+    font-size: rem;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    background-color: red;
+}
+/* subscribe section end */
